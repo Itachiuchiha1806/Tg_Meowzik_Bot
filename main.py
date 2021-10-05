@@ -66,7 +66,7 @@ async def help(_, message: Message):
     filters.command("repo") & filters.chat(sudo_chat_id) & ~filters.edited
 )
 async def repo(_, message: Message):
-    m= await message.reply_text(text="""[Meowzik Repo](https://github.com/Devanagaraj/Tg_Meowzik_Bot) | [Support Group](https://t.me/TGVCSUPPORT)""", disable_web_page_preview=True)
+    m= await message.reply_text(text="""[Meowzik Repo](https://github.com/Devanagaraj/Tg_Meowzik_Bot) | [Support Group](https://t.me/TheAkatsukiOrganisation)""", disable_web_page_preview=True)
     await sleep(10)
     await m.delete()
     await message.delete()
